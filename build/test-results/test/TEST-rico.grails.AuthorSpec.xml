@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rico.grails.AuthorSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-15T07:11:52" hostname="PHMANFEDSARMIE1" time="0.092">
+  <properties/>
+  <testcase name="Author First Name Too Long[0]" classname="rico.grails.AuthorSpec" time="0.092"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
