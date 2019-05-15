@@ -3,6 +3,7 @@ package rico.grails
 class UrlMappings {
 
     static mappings = {
+        get "/author"(controller:"author", action:"index")
         get "/author/$id"(controller:"author", action:"show")
 
         "/$controller/$action?/$id?(.$format)?"{
@@ -10,7 +11,6 @@ class UrlMappings {
                 // apply constraints here
             }
         }
-
 
         "/"(view:"/index")
         "500"(view:'/error')
